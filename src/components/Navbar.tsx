@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon, Github, Linkedin, Twitter } from "lucide-react";
+import { Menu, X, Sun, Moon, Github, Linkedin, Twitter, Instagram } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -78,7 +78,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-4">
             <div className="flex items-center gap-3">
               <motion.a
-                href="https://github.com"
+                href="https://github.com/SHASHANK-scent"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
@@ -87,7 +87,7 @@ export function Navbar() {
                 <Github className="w-5 h-5" />
               </motion.a>
               <motion.a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/shasank-kushwaha-85037b335?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
@@ -96,13 +96,13 @@ export function Navbar() {
                 <Linkedin className="w-5 h-5" />
               </motion.a>
               <motion.a
-                href="https://twitter.com"
+                href="https://www.instagram.com/i_m_shashank0101?igsh=MTYyOG45YXg2bWdveg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
                 className="p-2 rounded-full bg-background-card hover:bg-primary/20 transition-colors"
               >
-                <Twitter className="w-5 h-5" />
+                <Instagram className="w-5 h-5" />
               </motion.a>
             </div>
           </div>
@@ -150,7 +150,7 @@ export function Navbar() {
               ))}
               <div className="flex items-center gap-4 pt-4 border-t border-white/10">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/SHASHANK-scent"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-background-card"
@@ -158,7 +158,7 @@ export function Navbar() {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/shasank-kushwaha-85037b335?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-background-card"
@@ -166,12 +166,12 @@ export function Navbar() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://www.instagram.com/i_m_shashank0101?igsh=MTYyOG45YXg2bWdveg=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-background-card"
                 >
-                  <Twitter className="w-5 h-5" />
+                  <Instagram className="w-5 h-5" />
                 </a>
               </div>
             </div>

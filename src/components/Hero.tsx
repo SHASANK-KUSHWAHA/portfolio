@@ -116,8 +116,14 @@ export function Hero() {
               </motion.div>
               
               {/* Image container */}
-              <div className="absolute inset-4 rounded-full overflow-hidden animate-morph bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <div className="text-8xl font-bold gradient-text">S</div>
+              <div className="absolute inset-4 rounded-full overflow-hidden animate-morph">
+                <Image
+                  src="/shasank.png"
+                  alt="Shasank Kushwaha"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
               
               {/* Floating badges */}

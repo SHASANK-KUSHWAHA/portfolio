@@ -5,10 +5,9 @@ import { Github, Linkedin, Twitter, Instagram, Heart, ArrowUp } from "lucide-rea
 import Link from "next/link";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: Github, href: "https://github.com/SHASHANK-scent", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/shasank-kushwaha-85037b335?utm_source=share_via&utm_content=profile&utm_medium=member_android", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/i_m_shashank0101?igsh=MTYyOG45YXg2bWdveg==", label: "Instagram" },
 ];
 
 const quickLinks = [
